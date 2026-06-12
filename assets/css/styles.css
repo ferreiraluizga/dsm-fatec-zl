@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
+}
+
+.sidebar {
+    background: #111827;
+}
+
+.content-card {
+    background: #f8fafc;
+}
+
+.profile-photo {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.tech-badge {
+    border: 1px solid #374151;
+    color: #fff;
+    background: transparent;
+    font-weight: 500;
+}
+
+.social-link {
+    color: #9ca3af;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.social-link:hover {
+    color: #60a5fa;
+}
+
+.project-card {
+    transition: .3s;
+    border: 1px solid transparent;
+}
+
+.project-card:hover {
+    border-color: #60a5fa;
+}
+
+.integrador-card {
+    background: #111827;
+    transition: .3s;
+}
+
+.integrador-card:hover {
+    transform: translateY(-4px);
+}
+
+.experience-card {
+    transition: .3s;
+}
+
+.experience-card:hover {
+    transform: translateY(-4px);
+}
+
+.tech-card {
+    transition: .3s;
+    border: 1px solid transparent;
+}
+
+.tech-card:hover {
+    border-color: #60a5fa;
+}
+
+@media (min-width: 992px) {
+    .sidebar-sticky {
+        position: sticky;
+        top: 0;
+        height: 100vh;
+    }
+}
